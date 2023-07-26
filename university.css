@@ -1,0 +1,62 @@
+#cardContainer{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.pageData{
+    height: 600px;
+}
+
+.card {
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px gray;
+    background-color: darkcyan;
+    color: white;
+}
+
+.mainBtns.active {
+    background-color: black;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pageSummary{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin: 3px;
+    border-radius: 50px;
+    background: darkcyan;
+    color: white;
+    border: transparent;
+    text-align: center;
+}
+
+.btn{
+    background-color: black;
+}
+
+/* #pageNo{
+    margin: 3px;
+    border-radius: 50px;
+    background: darkcyan;
+    color: white;
+    text-align: center;
+    border: transparent;
+}
+input::placeholder{
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+} */
